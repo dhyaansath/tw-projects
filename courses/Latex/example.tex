@@ -1,9 +1,121 @@
-\documentclass{article}
-\usepackage{amsmath}
+
+\documentclass[12pt,a4paper]{report}
+
+% Packages
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{sectsty}
+\usepackage{fancyhdr}
+
+\chapterfont{\color{red}\bfseries\Huge}
+\sectionfont{\color{magenta}\itshape\Large}
+\subsectionfont{\color{orange}\bfseries}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[L]{Sanyam Sonwal}
+\fancyhead[C]{Technical Writing}
+\fancyhead[R]{\today}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\headheight}{15pt}
+
 \begin{document}
-\title{LaTeX Example}
-\maketitle
-\section{Introduction}
-This is a sample document showing a math equation:
-\[ \int_0^1 x^2 \,dx = \frac{1}{3} \]
+
+
+\begin{titlepage}
+    \thispagestyle{empty}
+    \centering
+
+    \vspace*{2cm}
+
+    {\Huge\bfseries Introduction to LaTeX\par}
+
+    \vspace{2cm}
+
+    {\Large Sanyam Sonwal\par}
+
+    \vspace{0.5cm}
+
+    ID: 2025UCP1709
+
+    \vspace{1cm}
+
+    Course: Technical Writing
+
+    \vspace{0.5cm}
+
+    Course Instructor: Dr. Neeta Nain
+
+    \vspace{1cm}
+
+    Date: \today
+
+    \vfill
+
+    MNIT Jaipur
+
+\end{titlepage}
+
+
+\begin{abstract}
+This document provides an introduction to LaTeX,
+a document preparation system widely used for
+technical and scientific writing. It explains the
+basic structure of LaTeX documents, formatting
+commands, chapters, sections, and other important
+features used to create professional documents.
+\end{abstract}
+
+\chapter{Introduction}
+
+LaTeX is a document preparation system used to
+create professional and well-structured documents.
+It is especially useful for scientific writing,
+academic reports, research papers, and presentations.
+
+\section{What is LaTeX?}
+
+LaTeX is based on the TeX typesetting system.
+It allows users to focus on content while maintaining
+consistent document formatting.
+
+\subsection{Applications of LaTeX}
+
+LaTeX is used for academic reports, research papers,
+books, and technical documentation.
+
+\section{Features of LaTeX}
+
+Some important features of LaTeX are:
+
+\begin{itemize}
+    \item Professional document formatting.
+    \item Automatic numbering of chapters and sections.
+    \item Mathematical equation support.
+    \item Tables, figures, and references.
+\end{itemize}
+
+\chapter{Basic Structure of a LaTeX Document}
+
+A LaTeX document consists of two main parts:
+the preamble and the document environment.
+
+\section{Preamble}
+
+The preamble contains the document class,
+packages, and formatting instructions.
+
+\section{Document Environment}
+
+The document environment contains the main
+content of the report.
+
+\chapter{Conclusion}
+
+LaTeX is a powerful tool for creating structured
+and professional documents. Its features make it
+particularly useful for academic and technical writing.
+
 \end{document}
